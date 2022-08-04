@@ -13,6 +13,8 @@ public class SchemaValidation {
 	
 private void test() {
 		
+		// schema
+		
 		baseURI ="https://reqres.in/api";
 		
 		Response response = get("/users?page=2");
