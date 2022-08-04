@@ -20,8 +20,7 @@ public class Login {
    
 	@Test 
 	private void TestGet() {
-		
-	    //login 
+	// login page added
 
 		Response response = get("https://reqres.in/api/users?page=2");
 		 
